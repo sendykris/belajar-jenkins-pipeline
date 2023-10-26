@@ -12,7 +12,7 @@ pipeline {
         }
     }
 
-        stages {
+    stages {
         stage("Test") {
             steps{
                 echo("Hellow Test")
@@ -20,7 +20,7 @@ pipeline {
         }
     }
 
-        stages {
+    stages {
         stage("Deploy") {
             steps{
                 echo("Hellow Deploy")
