@@ -10,23 +10,20 @@ pipeline {
                 echo("Hellow Build")
             }
         }
-    }
 
-    stages {
         stage("Test") {
             steps{
                 echo("Hellow Test")
             }
         }
-    }
 
-    stages {
         stage("Deploy") {
             steps{
                 echo("Hellow Deploy")
             }
         }
     }
+
 
     post {
         always {
